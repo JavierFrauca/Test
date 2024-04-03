@@ -3,6 +3,7 @@ using FluentValidation.Results;
 using TEST.Dtos;
 using TEST.Models;
 using TEST.Repositories;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace TEST.Services
 {
@@ -14,19 +15,50 @@ namespace TEST.Services
         public async Task<List<Tabla1Dto>> List() => _mapper.Map<List<Tabla1Dto>>(await _repository.GetAll());
         public async Task<(bool status, Tabla1Dto datareturn, List<ValidationFailure>)> Add(Tabla1Dto data)
         {
-            var datadto = _mapper.Map<Tabla1>(data);
-            return (true, _mapper.Map<Tabla1Dto>(await _repository.Add(datadto)), []);
-        }
+            try
+            {
+                var datadto = _mapper.Map<Tabla1>(data);
+                return (true, _mapper.Map<Tabla1Dto>(await _repository.Add(datadto)), []);
+            }
+            catch
+            {
+                return (false, data, [new ValidationFailure { ErrorMessage="No se ha podido añadir el registro"}]);
 
-        public async Task<Tabla1Dto> Delete(int id)
+            }
+        }
+        public async Task<(bool status, Tabla1Dto datareturn, List<ValidationFailure>)> Delete(int id)
         {
             var data = await _repository.GetById(id);
-            _repository.Delete(data);
-            await _repository.Save();
-            return _mapper.Map<Tabla1Dto>(data);
+            try
+            {
+                _repository.Delete(data);
+                if(data != null)
+                {
+                    await _repository.Save();
+                    return (true, _mapper.Map<Tabla1Dto>(data), []);
+                }
+                else
+                {
+                    return (false, _mapper.Map<Tabla1Dto>(data), [new ValidationFailure { ErrorMessage = "El registro que pretende eliminar no existe" }]);
+                }
+            }
+            catch
+            {
+                return (false, _mapper.Map<Tabla1Dto>(data), [new ValidationFailure { ErrorMessage = "No se ha podido eliminar" }]);
+            }
         }
 
-        public async Task<Tabla1Dto> Read(int id) => _mapper.Map<Tabla1Dto>(await _repository.GetById(id));
+        public async Task<(bool status, Tabla1Dto datareturn, List<ValidationFailure>)> Read(int id)
+        {
+            try
+            {
+                return (true,_mapper.Map<Tabla1Dto>(await _repository.GetById(id)), []);
+            }
+            catch(Exception ex) 
+            {
+                return(false,new Tabla1Dto(), [new ValidationFailure { ErrorMessage = ex.Message }]);
+            }
+        }
 
         public async Task<(bool status, Tabla1Dto datareturn, List<ValidationFailure>)> Write(Tabla1Dto data)
         {

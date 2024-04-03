@@ -13,7 +13,7 @@ namespace TEST.Migrations
 {
     [DbContext(typeof(MiData))]
     [Migration("20240402171648_inicial")]
-    partial class inicial
+    partial class Inicial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

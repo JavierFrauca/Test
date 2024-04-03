@@ -14,19 +14,23 @@ namespace TEST.Services
         public async Task<List<Tabla2Dto>> List() => _mapper.Map<List<Tabla2Dto>>(await _repository.GetAll());
         public async Task<(bool status, Tabla2Dto datareturn, List<ValidationFailure>)> Add(Tabla2Dto data)
         {
-            var datadto = _mapper.Map<Tabla2>(data);
-            return (true, _mapper.Map<Tabla2Dto>(await _repository.Add(datadto)), []);
+            var dataRep = _mapper.Map<Tabla2>(data);
+            await _repository.Add(dataRep);
+            return (true, data, []);
         }
 
-        public async Task<Tabla2Dto> Delete(int id)
+        public async Task<(bool status, Tabla2Dto datareturn, List<ValidationFailure>)> Delete(int id)
         {
             var data = await _repository.GetById(id);
             _repository.Delete(data);
             await _repository.Save();
-            return _mapper.Map<Tabla2Dto>(data);
+            return (true, _mapper.Map<Tabla2Dto>(data), []);
         }
 
-        public async Task<Tabla2Dto> Read(int id) => _mapper.Map<Tabla2Dto>(await _repository.GetById(id));
+        public async Task<(bool status, Tabla2Dto datareturn, List<ValidationFailure>)> Read(int id) {
+            var data = _mapper.Map<Tabla2Dto>(await _repository.GetById(id));
+            return (true, data, []);
+        } 
 
         public async Task<(bool status, Tabla2Dto datareturn, List<ValidationFailure>)> Write(Tabla2Dto data)
         {

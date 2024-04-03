@@ -1,6 +1,11 @@
 @TEST_HostAddress = http://localhost:5126
 
-GET {{TEST_HostAddress}}/weatherforecast/
+GET {{TEST_HostAddress}}/Tabla1/List
 Accept: application/json
 
+GET {{TEST_HostAddress}}/Tabla2/List
+Accept: application/json
+
+GET {{TEST_HostAddress}}/Tabla3/List
+Accept: application/json
 ###
