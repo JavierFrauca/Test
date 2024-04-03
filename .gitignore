@@ -1,5 +1,4 @@
 FileContentIndex/*
 obj/*
 .vs/*
-bin/release/*
-bin/debug/*/
+bin/*
