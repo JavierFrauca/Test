@@ -1,0 +1,193 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jfrauca.LTCINFORMATICOS\\Desktop\\desarrollo net\\_APIS\\in developmen\\TEST\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{43604D19-57B0-4F08-8ECC-9DC7891555D2}|WIKI.csproj|c:\\users\\jfrauca.ltcinformaticos\\desktop\\desarrollo net\\_apis\\in developmen\\test\\controllers\\tabla1controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43604D19-57B0-4F08-8ECC-9DC7891555D2}|WIKI.csproj|solutionrelative:controllers\\tabla1controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43604D19-57B0-4F08-8ECC-9DC7891555D2}|WIKI.csproj|C:\\Users\\jfrauca.LTCINFORMATICOS\\Desktop\\desarrollo net\\_APIS\\in developmen\\TEST\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43604D19-57B0-4F08-8ECC-9DC7891555D2}|WIKI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43604D19-57B0-4F08-8ECC-9DC7891555D2}|WIKI.csproj|C:\\Users\\jfrauca.LTCINFORMATICOS\\Desktop\\desarrollo net\\_APIS\\in developmen\\TEST\\repositories\\tabla3repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43604D19-57B0-4F08-8ECC-9DC7891555D2}|WIKI.csproj|solutionrelative:repositories\\tabla3repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43604D19-57B0-4F08-8ECC-9DC7891555D2}|WIKI.csproj|C:\\Users\\jfrauca.LTCINFORMATICOS\\Desktop\\desarrollo net\\_APIS\\in developmen\\TEST\\repositories\\commonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43604D19-57B0-4F08-8ECC-9DC7891555D2}|WIKI.csproj|solutionrelative:repositories\\commonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43604D19-57B0-4F08-8ECC-9DC7891555D2}|WIKI.csproj|C:\\Users\\jfrauca.LTCINFORMATICOS\\Desktop\\desarrollo net\\_APIS\\in developmen\\TEST\\models\\tabla2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43604D19-57B0-4F08-8ECC-9DC7891555D2}|WIKI.csproj|solutionrelative:models\\tabla2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43604D19-57B0-4F08-8ECC-9DC7891555D2}|WIKI.csproj|C:\\Users\\jfrauca.LTCINFORMATICOS\\Desktop\\desarrollo net\\_APIS\\in developmen\\TEST\\models\\tabla1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43604D19-57B0-4F08-8ECC-9DC7891555D2}|WIKI.csproj|solutionrelative:models\\tabla1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43604D19-57B0-4F08-8ECC-9DC7891555D2}|WIKI.csproj|C:\\Users\\jfrauca.LTCINFORMATICOS\\Desktop\\desarrollo net\\_APIS\\in developmen\\TEST\\models\\tabla3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43604D19-57B0-4F08-8ECC-9DC7891555D2}|WIKI.csproj|solutionrelative:models\\tabla3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43604D19-57B0-4F08-8ECC-9DC7891555D2}|WIKI.csproj|C:\\Users\\jfrauca.LTCINFORMATICOS\\Desktop\\desarrollo net\\_APIS\\in developmen\\TEST\\repositories\\tabla1repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43604D19-57B0-4F08-8ECC-9DC7891555D2}|WIKI.csproj|solutionrelative:repositories\\tabla1repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43604D19-57B0-4F08-8ECC-9DC7891555D2}|WIKI.csproj|C:\\Users\\jfrauca.LTCINFORMATICOS\\Desktop\\desarrollo net\\_APIS\\in developmen\\TEST\\repositories\\tabla2repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43604D19-57B0-4F08-8ECC-9DC7891555D2}|WIKI.csproj|solutionrelative:repositories\\tabla2repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Tabla1Controller.cs",
+              "DocumentMoniker": "C:\\Users\\jfrauca.LTCINFORMATICOS\\Desktop\\desarrollo net\\_APIS\\in developmen\\TEST\\Controllers\\Tabla1Controller.cs",
+              "RelativeDocumentMoniker": "Controllers\\Tabla1Controller.cs",
+              "ToolTip": "C:\\Users\\jfrauca.LTCINFORMATICOS\\Desktop\\desarrollo net\\_APIS\\in developmen\\TEST\\Controllers\\Tabla1Controller.cs",
+              "RelativeToolTip": "Controllers\\Tabla1Controller.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAswBgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T07:40:29.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Tabla3.cs",
+              "DocumentMoniker": "C:\\Users\\jfrauca.LTCINFORMATICOS\\Desktop\\desarrollo net\\_APIS\\in developmen\\TEST\\Models\\Tabla3.cs",
+              "RelativeDocumentMoniker": "Models\\Tabla3.cs",
+              "ToolTip": "C:\\Users\\jfrauca.LTCINFORMATICOS\\Desktop\\desarrollo net\\_APIS\\in developmen\\TEST\\Models\\Tabla3.cs",
+              "RelativeToolTip": "Models\\Tabla3.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T17:11:18.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Tabla2.cs",
+              "DocumentMoniker": "C:\\Users\\jfrauca.LTCINFORMATICOS\\Desktop\\desarrollo net\\_APIS\\in developmen\\TEST\\Models\\Tabla2.cs",
+              "RelativeDocumentMoniker": "Models\\Tabla2.cs",
+              "ToolTip": "C:\\Users\\jfrauca.LTCINFORMATICOS\\Desktop\\desarrollo net\\_APIS\\in developmen\\TEST\\Models\\Tabla2.cs",
+              "RelativeToolTip": "Models\\Tabla2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T17:11:14.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Tabla1.cs",
+              "DocumentMoniker": "C:\\Users\\jfrauca.LTCINFORMATICOS\\Desktop\\desarrollo net\\_APIS\\in developmen\\TEST\\Models\\Tabla1.cs",
+              "RelativeDocumentMoniker": "Models\\Tabla1.cs",
+              "ToolTip": "C:\\Users\\jfrauca.LTCINFORMATICOS\\Desktop\\desarrollo net\\_APIS\\in developmen\\TEST\\Models\\Tabla1.cs",
+              "RelativeToolTip": "Models\\Tabla1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T17:10:25.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jfrauca.LTCINFORMATICOS\\Desktop\\desarrollo net\\_APIS\\in developmen\\TEST\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\jfrauca.LTCINFORMATICOS\\Desktop\\desarrollo net\\_APIS\\in developmen\\TEST\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T17:07:18.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CommonRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jfrauca.LTCINFORMATICOS\\Desktop\\desarrollo net\\_APIS\\in developmen\\TEST\\Repositories\\CommonRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\CommonRepository.cs",
+              "ToolTip": "C:\\Users\\jfrauca.LTCINFORMATICOS\\Desktop\\desarrollo net\\_APIS\\in developmen\\TEST\\Repositories\\CommonRepository.cs",
+              "RelativeToolTip": "Repositories\\CommonRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T17:07:08.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Tabla3Repository.cs",
+              "DocumentMoniker": "C:\\Users\\jfrauca.LTCINFORMATICOS\\Desktop\\desarrollo net\\_APIS\\in developmen\\TEST\\Repositories\\Tabla3Repository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Tabla3Repository.cs",
+              "ToolTip": "C:\\Users\\jfrauca.LTCINFORMATICOS\\Desktop\\desarrollo net\\_APIS\\in developmen\\TEST\\Repositories\\Tabla3Repository.cs",
+              "RelativeToolTip": "Repositories\\Tabla3Repository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T17:07:01.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Tabla2Repository.cs",
+              "DocumentMoniker": "C:\\Users\\jfrauca.LTCINFORMATICOS\\Desktop\\desarrollo net\\_APIS\\in developmen\\TEST\\Repositories\\Tabla2Repository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Tabla2Repository.cs",
+              "ToolTip": "C:\\Users\\jfrauca.LTCINFORMATICOS\\Desktop\\desarrollo net\\_APIS\\in developmen\\TEST\\Repositories\\Tabla2Repository.cs",
+              "RelativeToolTip": "Repositories\\Tabla2Repository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T17:06:59.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Tabla1Repository.cs",
+              "DocumentMoniker": "C:\\Users\\jfrauca.LTCINFORMATICOS\\Desktop\\desarrollo net\\_APIS\\in developmen\\TEST\\Repositories\\Tabla1Repository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Tabla1Repository.cs",
+              "ToolTip": "C:\\Users\\jfrauca.LTCINFORMATICOS\\Desktop\\desarrollo net\\_APIS\\in developmen\\TEST\\Repositories\\Tabla1Repository.cs",
+              "RelativeToolTip": "Repositories\\Tabla1Repository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T17:06:57.383Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
