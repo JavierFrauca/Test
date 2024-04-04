@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using TEST.Dtos;
 using TEST.Services;
 using static System.Runtime.InteropServices.JavaScript.JSType;
@@ -7,6 +8,7 @@ namespace TEST.Controllers
 {
     [Route("api/v1/[controller]")]
     [ApiController]
+    [Authorize]
     public class Tabla3Controller(ICommonService<Tabla3Dto> service) : Controller
     {
         private readonly ICommonService<Tabla3Dto> _service = service;

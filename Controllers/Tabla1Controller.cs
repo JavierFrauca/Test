@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using TEST.Dtos;
 using TEST.Services;
 
@@ -6,6 +7,7 @@ namespace TEST.Controllers
 {
     [Route("api/v1/[controller]")]
     [ApiController]
+    [Authorize]
     public class Tabla1Controller(ICommonService<Tabla1Dto> service) : Controller
     {
         private readonly ICommonService<Tabla1Dto> _service = service;
