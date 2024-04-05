@@ -1,11 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
+﻿using AutoMapper;
 using FluentValidation.Results;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
 using TEST.Controllers;
 using TEST.Dtos;
+using TEST.Models;
+using TEST.Repositories;
 using TEST.Services;
 using Xunit;
 
@@ -17,12 +17,15 @@ namespace TEST.Tests.Controllers
         public async Task List_Returns_OkResult()
         {
             // Arrange
-            var mockService = new Mock<ICommonService<Tabla1Dto>>();
-            var controller = new Tabla1Controller(mockService.Object);
-            mockService.Setup(service => service.List()).ReturnsAsync([new() { Id = 1, Campo1 = "alkajsdf", Campo2 = "", Campo3 = "" },
+            var mockRepository = new Mock<ICommonRepository<Tabla1>>();
+            mockRepository.Setup(repo => repo.GetAll()).ReturnsAsync([new() { Id = 1, Campo1 = "alkajsdf", Campo2 = "", Campo3 = "" },
                                                                        new() { Id = 2, Campo1 = "sdfgfgsdfgsdfg", Campo2 = "", Campo3 = "" },
                                                                        new() { Id = 3, Campo1 = "aldfgfgjsdf", Campo2 = "", Campo3 = "" }
                                                                       ]);
+            var mappingConfig = new MapperConfiguration(cfg => { cfg.AddProfile<Mappers.Mappers>(); });
+            var mapper = mappingConfig.CreateMapper();
+            ICommonService<Tabla1Dto> service = new Tabla1Service(mockRepository.Object, mapper);
+            var controller = new Tabla1Controller(service);
             // Act
             var result = await controller.List();
             // Assert
