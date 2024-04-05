@@ -1,19 +1,18 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 using FluentValidation;
 using FluentValidation.AspNetCore;
+using System.Text;
 using TEST.Data;
-using Microsoft.EntityFrameworkCore;
 using TEST.Dtos;
 using TEST.Models;
 using TEST.Repositories;
 using TEST.Services;
 using TEST.Validations;
 using TEST.Mappers;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.IdentityModel.Tokens;
-using System.Text;
 using TEST.Middleware;
-using Microsoft.OpenApi.Models;
-using Microsoft.Extensions.Options;
 
 var builder = WebApplication.CreateBuilder(args);
 // cargar una configuracion de un nodo del fichero appsettings.json en una clase
